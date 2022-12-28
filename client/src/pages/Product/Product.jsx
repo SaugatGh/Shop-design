@@ -10,8 +10,8 @@ const Product = () => {
   const [quantity, setQuantity] = useState(1);
 
   const images = [
-    "https://static-01.daraz.com.np/p/0343c7710637dcb8dfcd8a16eda1d877.jpg",
-    "https://static-01.daraz.com.np/p/5644964158329c1fe5b248f30a648e69.jpg",
+   "https://i.ytimg.com/vi/FHw4F8xIXio/maxresdefault.jpg",
+   "https://dzp3g6fzlnblr.cloudfront.net/wp-content/uploads/2021/02/1-back-1.jpg"
   ];
   return (
     <div className="product">

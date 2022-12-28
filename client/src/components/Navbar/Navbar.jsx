@@ -46,14 +46,14 @@ function Navbar() {
         <div className="center">
           <Link className="link" to="/">
             {" "}
-            LamaStore
+            SkullCandy
           </Link>
         </div>
         <div className="right">
           <div className="item">
             <Link className="link" to="/">
               {" "}
-              LamaStore
+              SkullCandy
             </Link>
           </div>
           <div className="item">

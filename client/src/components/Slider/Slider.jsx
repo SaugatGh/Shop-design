@@ -7,9 +7,13 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+
+    // "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    // "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    // "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://cdn.mos.cms.futurecdn.net/JcmC3cUswP2fU6FyY8UDGP.jpg",
+    "https://dzp3g6fzlnblr.cloudfront.net/wp-content/uploads/2022/08/music-on-mission-desctop.jpg",
+    "https://dzp3g6fzlnblr.cloudfront.net/wp-content/uploads/2022/08/1_desktop_Dime-1.jpg",
   ];
 
   const prevSlide = () => {

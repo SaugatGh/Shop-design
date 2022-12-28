@@ -1,0 +1,64 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  // background: #00b0ff;
+  background: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .login {
+    padding: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+    h3 {
+      text-align: start;
+    }
+
+    .email {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      input {
+        height: 30px;
+
+        border-radius: 5px;
+      }
+    }
+    .password {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      input {
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+
+    .login-button {
+      button {
+        width: 100%;
+
+        height: 40px;
+        color: white;
+        background-color: #f50057;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      p {
+        text-align: end;
+      }
+    }
+    .account {
+      a {
+        color: gray;
+      }
+    }
+  }
+}

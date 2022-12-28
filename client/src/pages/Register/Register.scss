@@ -1,0 +1,103 @@
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  // background: #00b0ff;
+  background: url("https://images.pexels.com/photos/11254954/pexels-photo-11254954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  .register {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    text-align: start;
+    padding: 10px;
+
+    .firstName {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      input {
+        border-radius: 5px;
+        height: 30px;
+      }
+    }
+    .lastName {
+      gap: 10px;
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      input {
+        width: 100%;
+
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+    .email {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      gap: 10px;
+      input {
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+    .password {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      input {
+        width: 100%;
+
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+    .confirmPassword {
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      input {
+        width: 100%;
+
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+    .signup {
+      button {
+        width: 230px;
+        height: 40px;
+        margin-top:10px;
+        border-radius: 5px;
+        background-color: #f50057;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    .terms-condition {
+      display: flex;
+    }
+    .already {
+      a {
+        color: gray;
+      }
+    }
+  }
+}

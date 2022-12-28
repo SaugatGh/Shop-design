@@ -16,15 +16,15 @@ const Products = () => {
           <h2>Product Categories</h2>
           <div className="inputItem">
             <input type="checkbox" id="1" value={1} />
-            <label htmlFor="1">Shoes</label>
+            <label htmlFor="1">HeadPhones</label>
           </div>
           <div className="inputItem">
             <input type="checkbox" id="2" value={2} />
-            <label htmlFor="1">Skirts</label>
+            <label htmlFor="1">Earbuds</label>
           </div>
           <div className="inputItem">
             <input type="checkbox" id="3" value={3} />
-            <label htmlFor="1">Coats</label>
+            <label htmlFor="1">EarPhones</label>
           </div>
         </div>
         <div className="filterItem">
@@ -66,7 +66,7 @@ const Products = () => {
       </div>
       <div className="right">
         <img
-          src="https://i.pinimg.com/originals/fc/51/37/fc51375ea9fdd7e0b68ea88652685ff5.jpg"
+          src="https://pbs.twimg.com/tweet_video_thumb/EXf8g4NXsAAN00i.jpg"
           className="catImg"
           alt=""
         />
